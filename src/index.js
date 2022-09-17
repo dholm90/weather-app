@@ -1,4 +1,6 @@
 import './style.css';
-import Test from './components/test';
+import * as UI from './components/ui';
+// import API from './functions/api';
 
-Test.header();
+// API.load();
+UI.load();
